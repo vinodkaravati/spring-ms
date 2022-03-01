@@ -39,5 +39,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>artifactory</id>
+			<url></ur>
+		</repository>
+	</distributionManagement>
 
 </project>
