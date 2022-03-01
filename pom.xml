@@ -43,7 +43,7 @@
 	<distributionManagement>
 		<repository>
 			<id>artifactory</id>
-			<url></ur>
+			<url>http://172.17.0.3:8082/artifactory/tektutor/</url>
 		</repository>
 	</distributionManagement>
 
