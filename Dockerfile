@@ -1,6 +1,8 @@
 FROM docker.io/maven:latest
 MAINTAINER Jeganathan Swaminathan <jegan@tektutor.org>
 
+RUN mkdir -p ./hello
+
 COPY . ./hello
 WORKDIR ./hello
 
