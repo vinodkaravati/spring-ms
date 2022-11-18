@@ -1,5 +1,5 @@
-FROM openjdk:12
+FROM maven:latest
 MAINTAINER Jeganathan Swaminathan <jegan@tektutor.org>
 
-RUN mvn package && cp ./target/spring-hello-1.0.jar /app.jar
-ENTRYPOINT [ "java", "-jar", "/app.jar" ]
+RUN mvn package && cp ./target/spring-hello-1.0.jar ./app.jar
+ENTRYPOINT [ "java", "-jar", "./app.jar" ]
