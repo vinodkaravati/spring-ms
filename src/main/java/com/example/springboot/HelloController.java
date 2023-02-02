@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Hello SpringBoot Microservice !";
+		return "Hello Microservice !";
 	}
 
 }
